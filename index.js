@@ -186,5 +186,21 @@ y.command(
   }
 );
 
+y.command(
+  "$0",
+  "Print all tasks or a specific task by ID",
+  {
+    id: {
+      alias: "i",
+      default: 0,
+      describe: "Find and print a task by ID",
+      type: "number",
+    },
+  },
+  ({ id }) => {
+    showTasks(id);
+  }
+);
+
 loadData();
 y.parse();
