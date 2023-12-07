@@ -1,4 +1,4 @@
-#NoteS
+# NoteS
 ## Simple Task Management CLI Application
 
 This is a command-line interface (CLI) application built with Node.js that allows users to manage tasks.
